@@ -4,6 +4,4 @@
 ## 1) Titanic Problem
 
 * [Competition Link](https://www.kaggle.com/competitions/titanic/overview)
-* dfdsaf
-    sdfasdf
     
