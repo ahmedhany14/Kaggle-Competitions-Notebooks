@@ -60,4 +60,5 @@
         #### 5) Random Forest Classifier
         - This model is based on a decision tree in the first place. It basically improves the output of the decision tree, so all you need is just to buil it and make the same thing you do in Decision Tree Classifier
 
-    4. after creating all models and define the best parameters for each model, create a soft vot system to get better result
+    4. Votting System
+    after creating all models and define the best parameters for each model, create a soft vot system to get better result
