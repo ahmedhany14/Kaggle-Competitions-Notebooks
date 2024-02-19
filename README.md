@@ -31,14 +31,17 @@
         #### 2) k-Nearest Neighbors
         - in general i prefer to make K-neighbors = sqrt(n_samples), and then try K-neighbors less or greater than this number
 
-            num_neighbors = int(np.sqrt(len(x_train)))
+                num_neighbors = int(np.sqrt(len(x_train)))
+                neighbors = [num_neighbors]
+                for i in range(9):
+                    neighbors.append(num_neighbors + i + 1)
+                for i in range(9):
+                    neighbors.append(num_neighbors - (i + 1))
 
-            neighbors = [num_neighbors]
-            for i in range(9):
-                neighbors.append(num_neighbors + i + 1)
-            for i in range(9):
-                neighbors.append(num_neighbors - (i + 1))
         - and by those numbers i can make all possiple models and choose the best K-neighbors with good cross validation score.
 
-        ![Cross Validation](/home/ahmed/Ai/Kaggle-Competitions-Notebooks/Images/KNvalidation.png)
+            ![Cross][def]
 
+
+
+[def]: /home/ahmed/Ai/Kaggle-Competitions-Notebooks/Images/KNvalidation.png
