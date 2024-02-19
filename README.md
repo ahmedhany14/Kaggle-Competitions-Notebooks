@@ -7,6 +7,5 @@
 * Toturial
 
     this problem is a classification problem, to solve it we will follow the following steps:
-
-    EDA
+    1) EDA
     asdfas
