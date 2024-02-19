@@ -40,5 +40,5 @@
                 neighbors.append(num_neighbors - (i + 1))
         - and by those numbers i can make all possiple models and choose the best K-neighbors with good cross validation score.
 
-        ![Cross Validation](KNvalidation.png)
+        ![Cross Validation](/home/ahmed/Ai/Kaggle-Competitions-Notebooks/Images/KNvalidation.png)
 
