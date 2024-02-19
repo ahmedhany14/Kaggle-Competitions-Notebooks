@@ -26,7 +26,7 @@
         - Random Forest Classifier
 
         #### Logistic Regression
-        This is a basic model in which all you to train your data and calcaulte the score of the model
+        - This is a basic model in which all you to train your data and calcaulte the score of the model
         #### k-Nearest Neighbors
 
 
