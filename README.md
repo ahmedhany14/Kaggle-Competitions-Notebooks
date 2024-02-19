@@ -18,7 +18,7 @@
         you will fill the missing values, and apply OneHotEncode for the Categorical data.
 
     3. ML Models 
-    
+
         i used those models to solve the problem:
         - Logistic Regression
         - k-Nearest Neighbors
@@ -63,4 +63,4 @@
 
     4. Votting System
 
-    after creating all models and define the best parameters for each model, create a soft vot system to get better result
+        after creating all models and define the best parameters for each model, create a soft vot system to get better result
