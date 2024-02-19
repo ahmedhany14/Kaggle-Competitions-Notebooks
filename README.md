@@ -38,10 +38,26 @@
                 for i in range(9):
                     neighbors.append(num_neighbors - (i + 1))
 
-        - and by those numbers i can make all possiple models and choose the best K-neighbors with good cross validation score.
+        - and by those numbers i can make all possiple models and choose the best K-neighbors with good cross validation score, which here K-neighbors = 23 
 
-            ![Cross][def]
+        - Model results:
 
+            train score =  0.7945425361155698
+            train score =  0.8246268656716418
 
+        #### 3) R-Nearest Neighbors
+        - The worst model among them, i will ignore it
 
-[def]: /home/ahmed/Ai/Kaggle-Competitions-Notebooks/Images/KNvalidation.png
+        #### 4) Decision Tree Classifier
+        - Decision Tree one of the best models, but it has a problem, which is overfitting problem
+
+        - i usally use  post-pruning technique to avoid overfitting, all you need to compute cost complexity pruning path, then use cross validation score, to get mean score for each alpha and then choose alpha that prune the tree good without overfitting train data, in my case i choose 
+        
+            ccp_alpha=0.001713
+        
+        - check Decision Tree part in code to see how pruning effects on the size of tree
+
+        #### 5) Random Forest Classifier
+        - This model is based on a decision tree in the first place. It basically improves the output of the decision tree, so all you need is just to buil it and make the same thing you do in Decision Tree Classifier
+
+    4. after creating all models and define the best parameters for each model, create a soft vot system to get better result
