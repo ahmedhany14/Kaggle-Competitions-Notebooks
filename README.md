@@ -25,11 +25,10 @@
         - Decision Tree Classifier
         - Random Forest Classifier
 
-        ##### Logistic Regression
-
+        #### Logistic Regression
             This is a basic model in which all you to train your data and calcaulte the score of the model
 
-        ##### k-Nearest Neighbors
+        #### k-Nearest Neighbors
 
 
 
