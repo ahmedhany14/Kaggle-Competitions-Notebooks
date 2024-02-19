@@ -42,8 +42,8 @@
 
         - Model results:
 
-            train score =  0.7945425361155698
-            train score =  0.8246268656716418
+                train score =  0.7945425361155698
+                train score =  0.8246268656716418
 
         #### 3) R-Nearest Neighbors
         - The worst model among them, i will ignore it
@@ -53,7 +53,7 @@
 
         - i usally use  post-pruning technique to avoid overfitting, all you need to compute cost complexity pruning path, then use cross validation score, to get mean score for each alpha and then choose alpha that prune the tree good without overfitting train data, in my case i choose 
         
-            ccp_alpha=0.001713
+                ccp_alpha=0.001713
         
         - check Decision Tree part in code to see how pruning effects on the size of tree
 
