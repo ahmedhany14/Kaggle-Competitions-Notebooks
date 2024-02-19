@@ -18,12 +18,11 @@
         you will fill the missing values, and apply OneHotEncode for the Categorical data.
 
     3) ML Models 
-    
         i used those models to solve the problem:
-            - Logistic Regression
-            - k-Nearest Neighbors
-            - R-Nearest Neighbors
-            - Decision Tree Classifier
-            - Random Forest Classifier
+        - Logistic Regression
+        - k-Nearest Neighbors
+        - R-Nearest Neighbors
+        - Decision Tree Classifier
+        - Random Forest Classifier
         
 
